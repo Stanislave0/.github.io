@@ -1,0 +1,18 @@
+@import "_colors";
+.unit {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    background-color: $color_grid;
+    border-radius: 15px;
+    height: 290px;
+    p {
+        z-index: 4;
+        position: relative;
+    }
+}
+.unit-absolute {
+    position: absolute;
+    bottom:-2px;
+    right: -50px;
+}

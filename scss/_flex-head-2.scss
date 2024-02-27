@@ -1,0 +1,13 @@
+@import "_colors";
+@import "_fonts";
+.flex-head-2 {
+    border-top: 1px solid $color_header_1;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding-top: 15px;
+    justify-content: space-between;
+}
+.flex-head-2  * {
+    font-size: $font_head_sec;
+}

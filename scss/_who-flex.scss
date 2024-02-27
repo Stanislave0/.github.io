@@ -1,0 +1,9 @@
+@import "_colors";  
+.who-flex {
+    display: flex;
+    gap: 50px;
+    h2 {
+        font-size: $font_h2_name;
+        color: $color_h1;
+    }
+}

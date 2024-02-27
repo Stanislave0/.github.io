@@ -1,0 +1,55 @@
+.form {
+    max-width: 500px;
+    position: absolute;
+    background-color: $color_text_button;
+    border-radius: 15px;
+    right: 5%;
+    top: 10%;
+    padding: 40px;
+    color: $color_h1;
+    input:focus {
+        outline: none;
+    }
+    h2 {
+        font-size: $font_h2_name;
+        margin-top: 0;
+    }
+    .name-form input{
+        box-sizing: border-box;
+        font-size: $font_input_text;
+        padding: 20px;
+        width: 100%;
+        background-color: $color_input;
+        border: none;
+        border-radius: 5px;
+        height: 50px;
+    }
+    .tel-form input {
+        box-sizing: border-box;
+        font-size: $font_input_text;
+        padding: 20px;
+        margin-top: 20px;
+        width: 100%;
+        background-color: $color_input;
+        border: none;
+        border-radius: 5px;
+        height: 50px
+    }
+    .submit-form input {
+        box-sizing: border-box;
+        font-size: $font_input_text;
+        padding: 10px;
+        margin-top: 20px;
+        width: 100%;
+        color: white;
+        background-color: $color_button;
+        border: none;
+        border-radius: 5px;
+        height: 50px;
+        cursor: pointer;
+        
+    }
+    .submit-form input:hover {
+        background-color: $color_button_focus;
+    }
+}

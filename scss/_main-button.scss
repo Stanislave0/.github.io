@@ -1,0 +1,13 @@
+.main-button {
+    margin-top: 30px;
+    text-align: center;
+    color: $color_text_button;
+    width: 180px;
+    padding: 12px;
+    background-color: $color_button;
+    border-radius: 5px;
+}
+.main-button:hover {
+    background-color: $color_button_focus;
+    cursor: pointer;
+}

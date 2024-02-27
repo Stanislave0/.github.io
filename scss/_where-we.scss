@@ -1,0 +1,12 @@
+@import "_colors";
+.where-we {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color_map;
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

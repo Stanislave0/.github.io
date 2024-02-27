@@ -1,0 +1,12 @@
+@import "_fonts";
+.header {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    box-shadow: .1em .1em .5em #cbcbcb;
+    z-index: 2;
+    position: relative;
+}
+.header * {
+    font-size: $font_all;
+}

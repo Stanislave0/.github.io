@@ -1,0 +1,9 @@
+@import "_colors";
+@import "_fonts";
+.where-h2 {
+    padding: 50px;
+}
+.where-h2 h2, .photos h2 {
+    color: $color_h1;
+    font-size: $font_h2_name;
+}

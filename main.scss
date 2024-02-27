@@ -9,11 +9,36 @@
 body {
     margin: 0;
 }
-
-@import "scss/_header-block.scss";
-@import "scss/links";
-@import "scss/_main-card.scss";
-@import "scss/main-main";
+@import "scss/dot";
+@import "scss/active_dot.scss";
+@import "scss/first-head";
+@import "scss/flex-head-2";
+@import "scss/flex-head";
+@import "scss/foot-end";
+@import "scss/foot-list";
 @import "scss/footer";
-@import "scss/_adaptation.scss";
+@import "scss/form";
+@import "scss/grid-main";
+@import "scss/head-button";
+@import "scss/head-ul";
+@import "scss/header";
+@import "scss/main-button";
+@import "scss/main-card";
+@import "scss/main-width";
+@import "scss/main";
+@import "scss/margin-head";
+@import "scss/names-flex";
+@import "scss/photos";
+@import "scss/questions";
+@import "scss/second-head";
+@import "scss/slider";
+@import "scss/unit";
+@import "scss/where-h2";
+@import "scss/where-we";
+@import "scss/who-flex";
+
+@import "scss/links";
+@import "scss/colors";
+
+@import "scss/adaptation";
 

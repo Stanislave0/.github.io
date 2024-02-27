@@ -28,7 +28,7 @@
     }
 }
 @media (max-width:1000px) {
-    footer {
+    .footer {
         padding: 0 25px;
     }
     .main-card h1 {
@@ -39,7 +39,7 @@
     body {
         font-size: 14px;
     }
-    footer {
+    .footer {
         font-size: 12px;
     }
     .foot-list {
@@ -98,7 +98,7 @@
         right: 0;
         margin: 0 auto;
     }
-    main {
+    .main {
         margin: 0 20px;
     }
 }
@@ -130,7 +130,7 @@
     .foot-list {
         gap: 5px;
     }
-    footer {
+    .footer {
         padding: 0 10px;
     }
     #unit-1 {

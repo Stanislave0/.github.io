@@ -6,28 +6,10 @@
 .main-card h1 {
     font-size: $font_h1;
 }
-.main-width {
-    margin-left: 80px;
-    display: flex;
-    justify-content: space-between;
-}
 .main-card-img {
     img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
-}
-.main-button {
-    margin-top: 30px;
-    text-align: center;
-    color: $color_text_button;
-    width: 180px;
-    padding: 12px;
-    background-color: $color_button;
-    border-radius: 5px;
-}
-.main-button:hover {
-    background-color: $color_button_focus;
-    cursor: pointer;
 }

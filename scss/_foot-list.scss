@@ -1,0 +1,17 @@
+.foot-list {
+    padding: 50px 0;
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid $color_header_1;
+    img {
+        margin-right: 10px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        line-height: 1.7;
+    }
+    li {
+        display: flex;
+    }
+}

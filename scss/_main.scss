@@ -1,0 +1,11 @@
+@import "_colors";
+.main {
+    margin: 0 80px;
+    color: $color_h1;
+}
+.title-main {
+    text-align: center;
+    h2 {
+        font-size: $font_h2_name;
+    }
+}

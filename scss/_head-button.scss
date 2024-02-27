@@ -1,0 +1,14 @@
+@import "_colors";
+.head-button {
+    text-align: center;
+    color: $color_text_button;
+    width: 180px;
+    height: 100%;
+    padding: 10px;
+    background-color: $color_button;
+    border-radius: 5px;
+}
+.head-button:hover {
+    background-color: $color_button_focus;
+    cursor: pointer;
+}

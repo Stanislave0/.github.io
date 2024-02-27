@@ -1,0 +1,9 @@
+@import "_colors";
+.flex-head {
+    display: flex;
+    width: 100%;
+    color: $color_header_1;
+    img {
+        margin-right: 10px;
+    }
+}
