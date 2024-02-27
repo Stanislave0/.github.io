@@ -1,0 +1,69 @@
+@import "_colors";
+@import "_fonts";
+header {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    box-shadow: .1em .1em .5em #cbcbcb;
+    z-index: 2;
+    position: relative;
+}
+header * {
+    font-size: $font_all;
+}
+.flex-head {
+    display: flex;
+    width: 100%;
+    color: $color_header_1;
+    img {
+        margin-right: 10px;
+    }
+}
+.margin-head {
+    margin: 0 70px;
+}
+.first-head {
+    border-right: 1px solid $color_header_1;
+    width: 200px;
+    text-align: center;
+}
+.second-head {
+    margin-left: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.second-head-flex {
+    display: flex;
+}
+.flex-head-2 {
+    border-top: 1px solid $color_header_1;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding-top: 15px;
+    justify-content: space-between;
+}
+.flex-head-2  * {
+    font-size: $font_head_sec;
+}
+.head-ul {
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 50px;
+    }
+}
+.head-button {
+    text-align: center;
+    color: $color_text_button;
+    width: 180px;
+    height: 100%;
+    padding: 10px;
+    background-color: $color_button;
+    border-radius: 5px;
+}
+.head-button:hover {
+    background-color: $color_button_focus;
+    cursor: pointer;
+}

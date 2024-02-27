@@ -1,0 +1,139 @@
+@import "fonts";
+@media (max-width:1100px) {
+    .head-ul ul {
+        gap: 15px;
+    }
+    .margin-head {
+        margin: 0 25px;
+    }
+    .head-ul {
+        display: none;
+    }
+    .form {
+        top: 3%;
+        width: 300px;
+        padding: 25px;
+        height: auto;
+        h2 {
+            margin-bottom: 5px;
+            font-size: $font_h2_adapt;
+        }
+    }
+    .grid-main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        .unit {
+            height: 230px;
+        }
+    }
+}
+@media (max-width:1000px) {
+    footer {
+        padding: 0 25px;
+    }
+    .main-card h1 {
+        font-size: 40px;
+    }
+}
+@media (max-width:850px) {
+    body {
+        font-size: 14px;
+    }
+    footer {
+        font-size: 12px;
+    }
+    .foot-list {
+        justify-content: center;
+        padding: 20px 0;
+    }
+    .main-card h1 {
+        font-size: $font_h1_adapt;
+    }
+    .who-flex h2 {
+        font-size: $font_h2_adapt;
+    }
+    .where-h2 h2 {
+        font-size: $font_h2_adapt;
+    }
+    .photos h2 {
+        font-size: $font_h2_adapt;
+    }
+    .form .name-form input {
+        font-size: 14px;
+    }
+    .form .tel-form input {
+        font-size: 14px;
+    }
+    .form .submit-form input {
+        font-size: 14px;
+    }
+    .foot-logo {
+        display: none;
+    }
+    .dot {
+        width: 12px;
+        height: 12px;
+    }
+    .active_dot {
+        width: 24px;
+    }
+}
+@media (max-width:700px) {
+    .where-h2 {
+        padding: 15px;
+    }
+    .main-width {
+        margin-left: 20px;
+    }
+    .main-card-1 {
+        background-color: rgba(255, 255, 255, 0);
+    }
+}
+@media (max-width:830px) {
+    .questions img {
+        height: 400px;
+    }
+    .form {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    main {
+        margin: 0 20px;
+    }
+}
+@media (max-width: 620px) {
+    #unit-1 {
+        bottom: -60px;
+    }
+    #second-none {
+        display: none;
+    }
+}
+@media (max-width:590px) {
+    .main-width {
+        display: block;
+    }
+}
+@media (max-width: 550px) {
+    .where-we {
+        display: block;
+    }
+    .who-flex {
+        display: block;
+    }
+    .names-flex {
+        gap: 30px;
+    }
+}
+@media (max-width:460px) {
+    .foot-list {
+        gap: 5px;
+    }
+    footer {
+        padding: 0 10px;
+    }
+    #unit-1 {
+        bottom: -100px;
+    }
+}

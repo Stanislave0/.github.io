@@ -1,0 +1,14 @@
+@import "colors";
+a {
+    text-decoration: none;
+    color: $color_a;
+}
+a:hover {
+    color: $color_hover;
+}
+footer a {
+    color: $color_foot_a;
+}
+footer a:hover {
+    color: $color_foot_a_hover;
+}
